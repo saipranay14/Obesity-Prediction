@@ -2,9 +2,11 @@
 import streamlit as st
 import joblib
 import numpy as np
+import os
 
 # Load the trained model
-model = joblib.load("model.pkl")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "model.pkl")
+model = joblib.load(MODEL_PATH)
 
 # Title
 st.title("Obesity Prediction System")
