@@ -30,7 +30,7 @@ favc = st.selectbox("Do you eat high-calorie food frequently?", ['NO', 'YES'])
 family_history = st.selectbox("Family history of obesity?", ['NO', 'YES'])
 smoke = st.selectbox("Do you smoke?", ['NO', 'YES'])
 scc = st.selectbox("Do you monitor calories?", ['NO', 'YES'])
-caec = st.selectbox("Frequency of Eating Between Meals",['NO','Sometimes','Frequently','Always'])  # Encoded
+caec = st.selectbox("Do you eat any food between main meals?",['NO','Sometimes','Frequently','Always'])  # Encoded
 calc = st.selectbox("Alcohol Consumption", ['NO','Sometimes','Frequently','Always'])  # Encoded
 mtrans = st.selectbox("Mode of Transportation", ['Automobile','Bike','Public_transportation','Walking'])  # Encoded
 
