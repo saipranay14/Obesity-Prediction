@@ -22,7 +22,7 @@ weight = st.number_input("Weight (kg)",value=None)
 fcvc = st.selectbox("Frequency of vegetable consumption.", ['Never', 'Sometimes','Always'])
 ncp = st.number_input("Number of Main Meals per Day (1-4)",value=None)
 ch2o = st.selectbox("Daily water intake.", ['1 liter or less','2 to 4 liters','More than 4 liters'])
-faf = st.selectbox("Frequency of physical activity.", ['Never', 'Sometimes','Frequency','Always'])
+faf = st.selectbox("Frequency of physical activity.", ['Never', 'Sometimes','Frequently','Always'])
 tue = st.selectbox("Time spent using technology devices (e.g., computer, TV).", ['None','1-2 hours','3-4 hours','More than 4 hours'])
 
 # Binary & Categorical Inputs
