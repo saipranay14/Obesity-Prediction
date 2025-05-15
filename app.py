@@ -36,8 +36,8 @@ calc = st.selectbox("Alcohol Consumption", ['Never','Sometimes','Frequently','Al
 mtrans = st.selectbox("Mode of Transportation", ['Automobile','Bike','Public_transportation','Walking'])  # Encoded
 
 # Prepare input data for prediction
-fcvc1={'Never':1,  'Sometimes':2, 'Always':3}
-ch2o1={'1 liter or less':1,'2 to 4 liters':2,'More than 4 liters':3}
+fcvc1={'Never':0,  'Sometimes':1, 'Always':2}
+ch2o1={'1 liter or less':0,'2 to 4 liters':1,'More than 4 liters':2}
 dict = {'NO':0,'YES':1}
 tue1={'None':0,'1-2 hours':1,'3-4 hours':2,'More than 4 hours':3}
 encoded={'Never':0,'Sometimes':1,'Frequently':2,'Always':3}
